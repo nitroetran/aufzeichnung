@@ -1,0 +1,10 @@
+:root{--bg:#0a0b0e;--fg:#e9e9e9;--dim:#9aa0ab;--rec:#ff3b30}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Consolas,"Lucida Console",monospace}
+main{max-width:720px;margin:0 auto;padding:48px 16px}
+h1{font-size:26px;margin:0 0 8px}
+h2{font-size:18px;margin:32px 0 8px;color:var(--rec)}
+a{color:var(--fg)}
+.rec::before{content:"● ";color:var(--rec)}
+.dim{color:var(--dim);font-size:14px}
+hr{border:0;border-top:1px solid #222;margin:40px 0}
